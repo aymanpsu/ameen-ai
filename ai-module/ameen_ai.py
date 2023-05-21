@@ -19,7 +19,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn import *
-import sys
+# import sys
 
 """Part 2:
 
@@ -30,10 +30,10 @@ Here we are going to extract
 
 # myString = "عزيزي Faisal لديك شحنه من Amazon لترتيب موعد الاستلام الرجاء زيارة الرابط https://track.ty.xy3234/"
 
-# message = input("Enter the message to validate : ")
+message = input("Enter the message to validate: ")
 
-print('#Hello from python#')
-print('Message param:'+sys.argv[1]+'#')
+# print('#Hello from python#')
+# print('Message param:'+sys.argv[1]+'#')
 
 url = re.search("(?P<url>https?://[^\s]+)", message).group("url")
 
