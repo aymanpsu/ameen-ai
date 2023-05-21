@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.amen_ai"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:sentry_react-native] /Users/mohammedsalmeen/Documents/projects/amen_ai/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+14-->[:sentry_react-native] /Users/mohammedsalmeen/Documents/projects/amen_ai/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+15
+16    <application
+16-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:5:5-24:19
+17        android:name="com.amen_ai.MainApplication"
+17-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:6:7-38
+18        android:allowBackup="false"
+18-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:10:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/logo"
+21-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:8:7-34
+22        android:label="@string/app_name"
+22-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:7:7-39
+23        android:roundIcon="@mipmap/logo"
+23-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:9:7-39
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:11:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/debug/AndroidManifest.xml:8:9-44
+27        <activity
+27-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/debug/AndroidManifest.xml:11:9-111
+28            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+28-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/debug/AndroidManifest.xml:11:19-83
+29            android:exported="false" />
+29-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/debug/AndroidManifest.xml:11:84-108
+30        <activity
+30-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:12:7-23:18
+31            android:name="com.amen_ai.MainActivity"
+31-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:13:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+32-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:15:9-118
+33            android:exported="true"
+33-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:18:9-32
+34            android:label="@string/app_name"
+34-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:14:9-41
+35            android:launchMode="singleTask"
+35-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:16:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:17:9-51
+37            <intent-filter>
+37-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:19:9-22:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:20:13-65
+38-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:20:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:21:13-73
+40-->/Users/mohammedsalmeen/Documents/projects/amen_ai/android/app/src/main/AndroidManifest.xml:21:23-70
+41            </intent-filter>
+42        </activity>
+43
+44        <meta-data
+44-->[:sentry_react-native] /Users/mohammedsalmeen/Documents/projects/amen_ai/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:37
+45            android:name="io.sentry.auto-init"
+45-->[:sentry_react-native] /Users/mohammedsalmeen/Documents/projects/amen_ai/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+46            android:value="false" />
+46-->[:sentry_react-native] /Users/mohammedsalmeen/Documents/projects/amen_ai/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-34
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+50            android:authorities="com.amen_ai.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+58        </provider> <!-- 'android:authorities' must be unique in the device, across all apps -->
+59        <provider
+59-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:14:9-17:40
+60            android:name="io.sentry.android.core.SentryInitProvider"
+60-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:15:13-69
+61            android:authorities="com.amen_ai.SentryInitProvider"
+61-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:16:13-70
+62            android:exported="false" />
+62-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:17:13-37
+63        <provider
+63-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:18:9-22:39
+64            android:name="io.sentry.android.core.SentryPerformanceProvider"
+64-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:19:13-76
+65            android:authorities="com.amen_ai.SentryPerformanceProvider"
+65-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:20:13-77
+66            android:exported="false"
+66-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:21:13-37
+67            android:initOrder="200" />
+67-->[io.sentry:sentry-android-core:6.14.0] /Users/mohammedsalmeen/.gradle/caches/transforms-3/12ef9b612d6542d740e476513eb99e7a/transformed/jetified-sentry-android-core-6.14.0/AndroidManifest.xml:22:13-36
+68    </application>
+69
+70</manifest>

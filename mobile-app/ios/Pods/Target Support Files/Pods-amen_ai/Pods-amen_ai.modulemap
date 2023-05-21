@@ -1,0 +1,6 @@
+module Pods_amen_ai {
+  umbrella header "Pods-amen_ai-umbrella.h"
+
+  export *
+  module * { export * }
+}
