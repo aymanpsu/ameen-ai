@@ -1,6 +1,0 @@
-module Pods_amen_ai_amen_aiTests {
-  umbrella header "Pods-amen_ai-amen_aiTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
